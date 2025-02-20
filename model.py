@@ -9,7 +9,7 @@ block_size = 256
 embed_size = 384
 n_heads,n_layers = 6,6
 learning_rate = 1e-3
-# n_epochs = 5: overkill training data is only ~10k lines, dont even have to test
+# n_epochs = 5: overkill training data is only ~10k lines
 max_iters = 15000
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
